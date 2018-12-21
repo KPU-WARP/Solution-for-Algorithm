@@ -1,14 +1,12 @@
 #pragma once
 
 /*
-	¸ðÀÇ°í»ç [¿ÏÀüÅ½»ö] (https://programmers.co.kr/learn/courses/30/lessons/42840)
-		- ¼öÆ÷ÀÚ 3¸í°ú, Âï´Â ÆÐÅÏ, Á¤´ä ¹è¿­ÀÌ ÁÖ¾îÁú ¶§, °¡Àå ¸¹ÀÌ ¬Ãá ¼öÆ÷ÀÚÀÇ ÀÎµ¦½º¸¦ ¸®ÅÏÇÏ¶ó.
+	ëª¨ì˜ê³ ì‚¬ [ì™„ì „íƒìƒ‰] (https://programmers.co.kr/learn/courses/30/lessons/42840)
+		- ìˆ˜í¬ìž 3ëª…ê³¼, ì°ëŠ” íŒ¨í„´, ì •ë‹µ ë°°ì—´ì´ ì£¼ì–´ì§ˆ ë•Œ, ê°€ìž¥ ë†’ì€ ì ìˆ˜ì˜ ìˆ˜í¬ìž ì¸ë±ìŠ¤ë¥¼ ë¦¬í„´í•˜ë¼.
 
-		#0. ½ÃÇèÀº ÃÖ´ë 10,000 ¹®Á¦·Î ±¸¼ºµÇ¾îÀÖ½À´Ï´Ù.
-		#1. °¡Àå ³ôÀº Á¡¼ö¸¦ ¹ÞÀº »ç¶÷ÀÌ ¿©·µÀÏ °æ¿ì, returnÇÏ´Â °ªÀ» ¿À¸§Â÷¼ø Á¤·ÄÇØÁÖ¼¼¿ä.
+		#0. ì‹œí—˜ì€ ìµœëŒ€ 10,000 ë¬¸ì œë¡œ êµ¬ì„±ë˜ì–´ìžˆìŠµë‹ˆë‹¤.
+		#1. ê°€ìž¥ ë†’ì€ ì ìˆ˜ë¥¼ ë°›ì€ ì‚¬ëžŒì´ ì—¬ëŸ¿ì¼ ê²½ìš°, returní•˜ëŠ” ê°’ì„ ì˜¤ë¦„ì°¨ìˆœ ì •ë ¬í•´ì£¼ì„¸ìš”.
 		
-		!0. ÀÌ ¾Ë°í¸®ÁòÀÇ ºÐ·ùÀÎ "ÇØ½Ì"À¸·Î ¼Ö·ç¼ÇÀ» Á¦ÀÛÇÏÁö ¾Ê¾Ò±â ¶§¹®¿¡,
-		ÇØ½ÌÀ¸·ÎµÈ ¼Ö·ç¼Ç(==BestSolution)À» ÇÏ´Ü¿¡ Ãß°¡ÇÏ¿´½À´Ï´Ù.
 */
 
 #include <string>
