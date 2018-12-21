@@ -1,7 +1,7 @@
 #pragma once
 
 /*
-	완주하지 못한 선수 (https://programmers.co.kr/learn/courses/30/lessons/42576)
+	완주하지 못한 선수 [해시] (https://programmers.co.kr/learn/courses/30/lessons/42576)
 		- 마라톤 참여 선수 목록과, 완주 선수 목록이 주어질 때, 완주하지 못한 선수의 이름을 리턴하라.
 
 		#0. 선수는 1명 이상, 100, 000이하
@@ -24,7 +24,7 @@ string solution(vector<string> participant, vector<string> completion) {
 
 	sort(participant.begin(), participant.end(),
 		[/* void */](string& a, string& b) 
-		noexcept(false) -> bool 
+		noexcept(true) -> bool 
 	{
 		if (a.compare(b) < 0)
 			return true;
@@ -34,7 +34,7 @@ string solution(vector<string> participant, vector<string> completion) {
 
 	sort(completion.begin(), completion.end(), 
 		[/* void */](string& a, string& b) 
-		noexcept(false) -> bool
+		noexcept(true) -> bool
 	{
 		if (a.compare(b) < 0)
 			return true;
